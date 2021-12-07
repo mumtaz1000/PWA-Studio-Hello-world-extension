@@ -1,0 +1,19 @@
+{
+  "name": "@mumtaz/hello-world",
+  "version": "1.0.0",
+  "main": "src/intercept.js",
+  "author": "mumtaz",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@magento/pwa-buildpack": "^11.0.0",
+    "@magento/venia-ui": "*",
+    "react": "17.0.2",
+    "react-router-dom": "^6.0.2"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "src/intercept.js"
+    }
+  }
+}
